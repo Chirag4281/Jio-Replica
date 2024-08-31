@@ -1,0 +1,784 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(17, 17, 176); */
+    /* background-size: cover; */
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    background-color: rgb(17, 17, 176);
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logo{
+    /* width: 120px; */
+    margin-left: 140px;
+}
+.navbar ul li{
+    /* list-style: none; */
+    display: inline-block;
+    /* position: relative; */
+    margin-right: 60px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    color: rgb(203, 203, 252);
+}
+.navbar ul li:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+ .Search{
+    margin-right: 10px;
+    cursor:pointer;
+
+}
+.Login{
+    margin-right: 48px;
+    cursor:pointer;
+
+}
+.LiveLife{
+    width: 100%;
+    height: 70%;
+}
+.banner-image{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+.banner-text .para{
+    font-size: 20px;
+}
+.JioMart{
+    border-radius: 2em;
+    width:200px;
+    height: 55px;
+    border: none;
+    background-color: blue;
+    color:#fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.JioMart:hover{
+    background-color: rgb(0, 115, 255);
+}
+.Explore{
+    border-radius: 2em;
+    height: 50px;
+    width:200px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Explore:hover{
+    border-color: blue;
+}
+.Explore:active{
+    border: 2px solid blue;
+}
+.previous{
+    border: 2px solid gainsboro;
+    padding: 10px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: black;
+    color: white;
+}
+.next{
+    border: 2px solid gainsboro;
+    padding: 10px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: white;
+}
+.previous:hover{
+    background-color: rgb(230, 228, 228);
+}
+.next:hover{
+    background-color: rgb(230, 228, 228);
+}
+.previous:active{
+    background-color: rgb(143, 143, 205);
+}
+.next:active{
+    background-color: rgb(143, 143, 205);
+}
+.GetJioAirFiber{
+    border-radius: 2em;
+    height: 50px;
+    width:130px;
+    background-color: transparent;
+    border:1px solid lightgray;
+    cursor: pointer;
+    font-size: 15px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: rgb(46, 17, 127);
+}
+.GetJioSim{
+    border-radius: 2em;
+    height: 50px;
+    width:122px;
+    background-color: transparent;
+    border:1px solid lightgray;
+    cursor: pointer;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: rgb(46, 17, 127);
+}
+.GetJioFiber{
+    border-radius: 2em;
+    height: 50px;
+    width:122px;
+    background-color: transparent;
+    border:1px solid lightgray;
+    cursor: pointer;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    color: rgb(46, 17, 127);
+}
+.PortToJio{
+    border-radius: 2em;
+    height: 50px;
+    width:122px;
+    background-color: transparent;
+    border:1px solid lightgray;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(46, 17, 127);
+}
+.GetJioAirFiber:hover{
+    border-color: rgb(46, 17, 127);
+}
+.GetJioSim:hover{
+    border-color: rgb(46, 17, 127);
+}
+.GetJioFiber:hover{
+    border-color: rgb(46, 17, 127);
+}
+.PortToJio:hover{
+    border-color: rgb(46, 17, 127);
+}
+.BG{
+    background-color: rgb(240, 237, 237);
+    height: 80vh;
+}
+.Boxy{
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background-color: #fff;
+    height: 350px;
+    width: 1000px;
+    margin: auto;
+}
+form{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.Chotu{
+    font-size: 13px;
+}
+.JioMobNum{
+    border-radius: 25px;
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+}
+.JioMobNum input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: black;
+    border-radius: 40px;
+    font-size: 16px;
+    padding:10px;
+}
+.Recharge{
+    border-radius: 2em;
+    width:150px;
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color:#fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.Recharge:hover{
+    background-color: rgb(40, 8, 136);
+}
+/* .phoneu{
+    height: 200px;
+    width: 200px;
+    margin-top: 00px;
+    margin-left: 700px;
+} */
+.percent{
+    background-color: rgb(240, 237, 237);
+    height: 20px;
+    width: 500px;
+    border-radius: 10px;
+    /* font-size: 2px; */
+    padding: 10px;
+}
+.bigthings{
+    text-align: center;
+    font-size: 40px;
+}
+.bigthings img{
+    border-radius: 20px;
+    display: inline-flex;
+}
+.bigthings video{
+    border-radius: 30px;
+}
+.bigthings button{
+    border-radius: 50px;
+    background-color: rgb(29, 97, 157);
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    border: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+.BG p{
+    text-align: center;
+    font-size: 40px;
+    font: Arial-black 3px;
+}  
+.BG img{
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+}    
+.Other-BG{
+    background-color: rgb(225, 227, 235);
+    height: 85vh;
+}
+.Other-BG img{
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+}
+.Bluee{
+    background-color: rgb(0, 51, 255);
+    height: 55vh;
+}
+.Bluee h1{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+.Bluee h5{
+    font-size: 20px;
+    color: #ccdde3;
+    text-align: center;
+}
+.buttonn{
+    border-radius: 2em;
+    height: 50px;
+    width:200px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    border:1px solid #aba3a3;
+    color: #fff;
+    text-align: center;
+}
+.buttonn:hover{
+    border-color: #fff;
+}
+.G5Button{
+    background-color: #f7e6d9;
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 180px;
+    height: 55px;
+    position: relative;
+    color: rgb(255, 102, 0);
+    bottom: 440px;
+    right: 410px;
+}
+.G5Button:hover{
+    background-color: rgb(251, 200, 128);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 600px) {
+    .text {font-size: 11px}
+  }
+  .G6Button{
+    background-color: #d9d9f7;
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 155px;
+    height: 55px;
+    position: relative;
+    color: rgb(0, 34, 255);
+    bottom: 445px;
+    right: 1px;
+  }
+  .G6Button:hover{
+    background-color: rgb(128, 169, 251);
+}
+.G7Button{
+    background-color: rgb(0, 208, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 155px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 208px;
+    left: -590px;
+  }
+  .G7Button:hover{
+    background-color: rgb(0, 183, 255);
+}
+.G8Button{
+    background-color: rgb(0, 255, 195);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    bottom: -290px;
+    right: 100px;
+  }
+  .G8Button:hover{
+    background-color: rgb(13, 255, 0);
+}
+.i1{
+    background-image: url("../Images/Super\ Deals.png");
+    width: 1340px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -25px;
+    cursor: pointer;
+}
+.i2{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Saavn.png");
+    width: 400px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -80px;
+    top: -35px;
+    cursor: pointer;
+}
+.i3{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Cinema.png");
+    width: 400px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -80px;
+    top: -35px;
+    width: 950px;
+    cursor: pointer;
+}
+.G9Button{
+    background-color: rgb(255, 0, 132);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 185px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    bottom: -210px;
+    right: 365px;
+  }
+  .G9Button:hover{
+    background-color: rgb(255, 0, 183);
+}
+.i4{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Urban\ Ladder.png");
+    width: 400px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -90px;
+    top: -25px;
+    cursor: pointer;
+}
+.G10Button{
+    background-color: rgb(255, 115, 0);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    bottom: -200px;
+    right: 100px;
+  }
+  .G10Button:hover{
+    background-color: rgb(255, 149, 0);
+}
+.i5{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Gaming.png");
+    width: 400px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -80px;
+    top: -25px;
+    cursor: pointer;
+}
+.i6{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Enrich\ Jio.png");
+    width: 450px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -80px;
+    top: -30px;
+    cursor: pointer;
+}
+.G11Button{
+    background-color: rgb(1, 111, 54);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    color: white;
+    bottom: -249px;
+    right: 100px;
+  }
+  .G11Button:hover{
+    background-color: rgb(0, 162, 24);
+}
+.G12Button{
+    background-color: rgb(17, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    color: white;
+    bottom: -189px;
+    right: 100px;
+  }
+  .G12Button:hover{
+    background-color: rgb(57, 162, 255);
+}
+.G13Button{
+    background-color: rgb(17, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 260px;
+    height: 70px;
+    position: relative;
+    color: white;
+    bottom: -390px;
+    right: -5px;
+  }
+  .G13Button:hover{
+    background-color: rgb(57, 162, 255);
+}
+.i7{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Sellers\ At\ Best\ Price.png");
+    width: 330px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 100px;
+    top: -10px;
+    cursor: pointer;
+}
+.i8{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Motive.png");
+    width: 330px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 100px;
+    top: -10px;
+    cursor: pointer;
+}
+.i9{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Dive.png");
+    width: 330px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 100px;
+    top: -10px;
+    cursor: pointer;
+}
+.i10{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Jio\ Book.png");
+    width: 330px;
+    height: 485px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 100px;
+    top: -10px;
+    cursor: pointer;
+}
+.i11{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Great\ Place\ To\ Work.png");
+    width: 700px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 70px;
+    top: 10px;
+    cursor: pointer;
+}
+.i12{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Ai\ And\ Farming.png");
+    width: 700px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 80px;
+    top: 10px;
+    cursor: pointer;
+}
+.G14Button{
+    background-color: rgb(17, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 220px;
+    height: 70px;
+    position: relative;
+    color: white;
+    bottom: -520px;
+    right: -9px;
+  }
+  .G14Button:hover{
+    background-color: rgb(57, 162, 255);
+}
+.G15Button{
+    background-color: rgb(17, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 220px;
+    height: 70px;
+    position: relative;
+    color: white;
+    bottom: -520px;
+    right: -9px;
+  }
+  .G15Button:hover{
+    background-color: rgb(57, 162, 255);
+}
+.i13{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Grow\ Your\ Business\ Faster.png");
+    width: 1250px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    /* left: 80px; */
+    top: 10px;
+    cursor: pointer;
+}
+.G16Button{
+    background-color: rgb(17, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 255px;
+    height: 62px;
+    position: relative;
+    color: white;
+    bottom: -373px;
+    right: -30px;
+  }
+  .G16Button:hover{
+    background-color: rgb(57, 162, 255);
+}
+video{
+    border-radius: 20px;
+    width: 1000px;
+}
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

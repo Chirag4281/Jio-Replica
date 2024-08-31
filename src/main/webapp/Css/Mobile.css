@@ -1,0 +1,693 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(17, 17, 176); */
+    /* background-size: cover; */
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    background-color: rgb(17, 17, 176);
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logo{
+    /* width: 120px; */
+    margin-left: 140px;
+}
+.navbar ul li{
+    /* list-style: none; */
+    display: inline-block;
+    /* position: relative; */
+    margin-right: 60px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    color: rgb(203, 203, 252);
+}
+.navbar ul li:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+ .Search{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Login{
+    margin-right: 48px;
+    cursor:pointer;
+}
+.darknavbar{
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    background-color: rgb(11, 11, 112);
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.darknavbar ul li{
+    /* list-style: none; */
+    display: inline-block;
+    /* position: relative; */
+    margin-right: 60px;
+}
+.darknavbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.darknavbar ul li:hover::after{
+    width: 100%;
+    color: rgb(203, 203, 252);
+}
+.darknavbar ul li:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.Simmy img{
+    width: 100%;
+    position: relative;
+}
+.Whity img{
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+}
+.NewSim{
+    position: relative;
+    border-radius: 2em;
+    width:150px;
+    height: 55px;
+    border: none;
+    background-color: blue;
+    color:#fff;
+    cursor: pointer;
+    font-size: 16px;
+    bottom: 110px;
+    left: 166px;
+}
+.NewSim:hover{
+    background-color: rgb(0, 115, 255);
+}
+.Preferance{
+    text-align: center;
+    font-size: 60px;
+}
+.Preferance img{
+    display: inline-flex;
+}
+.thrilled img{
+    position: relative;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+}
+.BGBlue{
+    text-align: center;
+    background-color: rgb(225, 227, 235);
+    height: 112vh;
+    font-size: 60px;
+}
+.BGBlue h6{
+    font-size: 18px;
+    text-align: center;
+}
+.plans img{
+    position: relative;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+}
+.trending{
+    text-align: center;
+    font-size: 60px;
+}
+.trending h6{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(101, 105, 105);
+}
+.Imi img{
+    position: relative;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px; 
+}
+.JioUser{
+    text-align: center;
+    background-color: rgb(225, 227, 235);
+    font-size: 60px;
+}
+.JioUser h6{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(101, 105, 105);
+}
+.JioUser img{
+    position: relative;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px; 
+}
+.CoolDevices{
+    text-align: center;
+    font-size: 60px;
+}
+.CoolDevices h6{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(101, 105, 105);
+}
+.CoolDevices img{
+    position: relative;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 5px;
+    box-shadow: 50px;
+}
+.Shopping{
+    border-radius: 2em;
+    height: 50px;
+    width:150px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    color: #0a0d65;
+    border:1px solid #aba3a3;
+    text-align: center;
+}
+.Shopping:hover{
+    border: 1px solid #0a0d65;
+}
+.Bluee{
+    background-color: rgb(0, 51, 255);
+    height: 55vh;
+}
+.Bluee h1{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+.Bluee h5{
+    font-size: 20px;
+    color: #ccdde3;
+    text-align: center;
+}
+.buttonn{
+    border-radius: 2em;
+    height: 50px;
+    width:200px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    border:1px solid #aba3a3;
+    color: #fff;
+    text-align: center;
+}
+.buttonn:hover{
+    border-color: #fff;
+}
+.Whity{
+    background-image: url("../Images/Easy\ Recharge.png");
+    width: 1340px;
+    height: 590px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 90px;
+}
+.G1Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 155px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 410px;
+    left: 35px;
+    
+  }
+  .G1Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.G2Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 155px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 410px;
+    left: 35px;
+    
+  }
+  .G2Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.thrilled{
+    background-image: url("../Images/Thrilled.png");
+    width: 1340px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: 90px;
+}
+.G3Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 387px;
+    left: 52px;
+    
+  }
+  .G3Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.G4Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 387px;
+    left: 52px;
+    
+  }
+  .G4Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.i1{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/299.png");
+    width: 440px;
+    height: 400px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    /* left: 150px; */
+    top: -60px;
+    cursor: pointer;
+}
+.i2{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/1198.png");
+    width: 440px;
+    height: 400px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    /* left: -150px; */
+    top: -60px;
+    cursor: pointer;
+}
+.i3{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/2999.png");
+    width: 440px;
+    height: 400px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    /* left: -450px; */
+    top: -60px;
+    cursor: pointer;
+}
+.G5Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 285px;
+    left: -15px;
+    
+  }
+  .G5Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.G6Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 285px;
+    left: -15px;
+    
+  }
+  .G6Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.G7Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 285px;
+    left: -10px;
+    
+  }
+  .G7Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.G8Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 285px;
+    left: -15px;
+    
+  }
+  .G8Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.G10Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 175px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 285px;
+    left: -13px;
+    
+  }
+  .G10Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.G9Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 200px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 285px;
+    left: -10px;
+    
+  }
+  .G9Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+.i4{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Stay\ Connected.png");
+    width: 465px;
+    height: 616px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.i5{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Super\ App.png");
+    width: 465px;
+    height: 616px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.i6{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Recharge\ And\ Rewards.png");
+    width: 465px;
+    height: 616px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.G11Button{
+    background-color: rgb(179, 178, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    color: black;
+    top: 535px;
+    left: -15px;
+    
+  }
+  .G11Button:hover{
+    background-color: rgb(107, 166, 255);
+}
+.G12Button{
+    background-color: rgb(179, 178, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    color: black;
+    top: 535px;
+    left: -15px;
+    
+  }
+  .G12Button:hover{
+    background-color: rgb(107, 166, 255);
+}
+.G13Button{
+    background-color: rgb(179, 178, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    color: black;
+    top: 530px;
+    left: -15px;
+    
+  }
+  .G13Button:hover{
+    background-color: rgb(107, 166, 255);
+}
+.i7{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Sim-less feature.png");
+    width: 460px;
+    height: 490px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.i8{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Fav Song.png");
+    width: 460px;
+    height: 490px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.i9{
+    position: relative;
+    display: inline-block;
+    background-image: url("../Images/Wifi Caling Redefined.png");
+    width: 460px;
+    height: 490px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    top: -35px;
+    cursor: pointer;
+}
+.G14Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 195px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 395px;
+    left: -125px;
+    
+  }
+  .G14Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.G15Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 195px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 395px;
+    left: -125px;
+    
+  }
+  .G15Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.G16Button{
+    background-color: rgb(255, 255, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 225px;
+    height: 65px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 395px;
+    left: -105px;
+    
+  }
+  .G16Button:hover{
+    border:1px solid rgb(46, 17, 127);
+}
+.i10{
+    background-image: url("../Images/Bouquet.png");
+    width: 1340px;
+    height: 600px;
+    position: relative;
+    border-radius: 30px;
+    display: inline-block;
+    left: -25px;
+    cursor: pointer;
+}
+.G17Button{
+    background-color: rgb(4, 0, 255);
+    border: 2em;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 200px;
+    width: 210px;
+    height: 65px;
+    position: relative;
+    color: white;
+    top: 385px;
+    left: -520px;
+    
+  }
+  .G17Button:hover{
+    background-color: rgb(0, 102, 255);
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
